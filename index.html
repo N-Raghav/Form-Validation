@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <div>
+            <label for="mobile">Mobile Number:</label>
+            <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10}">
+        </div>
+        <div>
+            <label for="email">Email ID:</label>
+            <input id="email" name="email" type="email">
+        </div>
+        <div>
+            <label for="roll">College Roll Number:</label>
+            <input id="roll" name="roll" type="text" >
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div id="error"></div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
